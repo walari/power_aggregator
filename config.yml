@@ -1,0 +1,21 @@
+url: https://interview.beta.bcmenergy.fr/
+power_plants:
+  - name: hawes
+    start_field: start
+    end_field: end
+    power_field: power
+    format: json
+    dt: 900
+  - name: barnsley
+    start_field: start_time
+    end_field: end_time
+    power_field: value
+    format: json
+    dt: 1800
+  - name: hounslow
+    start_field: debut
+    end_field: fin
+    power_field: valeur
+    format: csv
+    sep: ','
+    dt: 3600
